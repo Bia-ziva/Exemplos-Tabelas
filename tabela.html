@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/icone.png">
+    <link rel="stylesheet" href="estilo/estiloTabela.css">
+    <title>Exemplo Tabela</title>
+</head>
+<body>
+    <table>
+        <caption>Horário Escolar 1°Semestre</caption>
+        <thead>
+        <tr>
+            <th>Horário</th>
+            <th>Segunda-Feira</th>
+            <th>Terça-Feira</th>       
+            <th>Quarta-Feira</th>       
+            <th>Quinta-Feira</th>       
+            <th>Sexta-Feira</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>07:30 ás 08:20</td>
+            <td>Matemática</td>
+            <td>Geografia</td>
+            <td rowspan="2">Português</td>
+            <td>Física</td>
+            <td>Química</td>
+        </tr>
+        <tr>
+            <td>08:20 ás 09:10</td>
+            <td>Química</td>
+            <td>Física</td>
+            <!-- <td>Português</td> -->
+            <td>História</td>
+            <td>Matemática</td>
+        </tr>
+        <tr>
+            <td>09:10 ás 10:00</td>
+            <td>ED. Física</td>
+            <td>Geografia</td>
+            <td>Biologia</td>
+            <td>Inglês</td>
+            <td>Português</td>
+        </tr>
+        <tr>
+            <td>10:00 ás 10:30</td>
+            <td colspan="5" class="intervalo">Intervalo</td>
+        </tr>
+        <tr>
+            <td>10:30 ás 11:20</td>
+            <td>Português</td>
+            <td>Matemática</td>
+            <td>Química</td>
+            <td>Física</td>
+            <td>História</td>
+        </tr>
+        <tr>
+            <td>11:20 ás 12:10</td>
+            <td>Matemática</td>
+            <td>Física</td>
+            <td>Biologia</td>
+            <td>Inglês</td>
+            <td rowspan="2">Filosofia</td>
+        </tr>
+        <tr>
+            <td>12:10 ás 13:00</td>
+            <td>Química</td>
+            <td>Português</td>
+            <td>Física</td>
+            <td>Lógica</td>
+            <!-- <td>Filosofia</td> -->
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="6" class="tfoot">Meu rodapé (tfoot)</td>
+        </tr>
+    </tfoot>
+    </table>
+    
+</body>
+</html>

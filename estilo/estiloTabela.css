@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: Gray;
+    font-family: 'Dancing Script', cursive;
+}
+table, td, th{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
+table{
+    width: 65%;
+    margin: auto;
+    margin-top: 300px;
+    background-color: LightGrey;
+}
+tr:nth-child(even){
+    background-color: dimgray;
+}
+tr:nth-child(odd){
+    background-color: DarkGray;
+}
+tr:hover{
+    background-color: white;
+}
+th{
+    font-size: 14pt;
+    text-transform: uppercase;
+    background-color: DarkGray;
+}
+.intervalo{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+caption{
+    background-color: black;
+    color: white;
+    font-size: 18pt;
+    font-weight: bold;
+    padding: 10px;
+}
+tfoot{
+    background-color: aqua;
+
+}

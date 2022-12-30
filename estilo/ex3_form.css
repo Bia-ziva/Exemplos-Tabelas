@@ -1,0 +1,44 @@
+/* Caso haja cores especificas */ 
+/* :root{
+    --cor1:#4169E1;
+    --cor2:#000080;
+    --cortexto1:#6A5ACD;
+    --cortexto2:#6A5ACD;
+} */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: LightSkyBlue;
+    font-family: 'Courier New', Courier, monospace;
+}
+.formulario{
+    width: 450px;
+    margin: 200px auto;
+}
+
+textarea{
+    resize: none;
+}
+.btn{
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+.btnSubmit{
+    background-color: DeepSkyBlue;
+}
+.btnReset{
+    background-color: DodgerBlue;
+}
+label{
+    display: block;
+}
+.lista{
+    display: none;
+}
+.interesse{
+    padding: 5px 10px;
+    display: flex;
+}

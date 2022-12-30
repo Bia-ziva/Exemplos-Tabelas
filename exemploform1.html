@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Form 1</title>
+
+    <style>
+        body{
+            background-color: bisque;
+            font-family: 'Dancing Script', cursive;
+        }
+        form{
+            width: 350px;
+            margin: 200px auto;
+            background-color: slategray;
+        }
+        input, label{
+            display: block;
+        }
+        input{
+            width: 100%;
+            padding: 15px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            border: none;
+        }
+        input:focus{
+            background-color: azure;
+            outline: none;
+        }
+        label{
+            margin: 25px 0 10px;
+        }
+        .btn{
+            background-color: aqua;
+            padding: 20px;
+            font-size: 16pt;
+        }
+
+    </style>
+
+</head>
+<body>
+    <form action="https://google.com/search" method="get" target="_blank">
+        <fieldset>
+            <legend>Busca</legend>
+        <label for="busca">Faça a sua Busca</label>
+        <input type="text" name="q" id="busca">
+
+        <input type="submit" value="Buscar" class="btn">
+        <input type="reset" value="Limpar" class="btn">
+    </fieldset>
+    </form>
+    
+</body>
+</html>
